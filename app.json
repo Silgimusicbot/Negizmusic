@@ -1,0 +1,29 @@
+{
+    "name": "Alexa Music",
+    "description": "Telegram streaming bot with some useful features, written in Python. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
+    "logo": "https://telegra.ph/file/ba967503682a55beaedd3.png",
+    "stack": "heroku-22",
+    "keywords": [
+    "python",
+    "python3",
+    "telegram",
+    "bot",
+    "Alexa",
+    "alexamusic",
+    "alexamusicbot",
+    "pytgcalls",
+    "ntgcalls",
+    "py-tgcalls",
+    "kurigram",
+    "pyrogram"
+    ],
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "heroku-22"
+  }
