@@ -18,10 +18,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = 19769686
-API_HASH = "515b64f5d2d955cdd6aa85a808fd4cb4"
+API_ID = 27250435
+API_HASH = "5f1b167cd671b9d05fec51c89eac17da"
 
-BOT_TOKEN = "8158248164:AAEpELV0vUyJlnhWmU0tRFVABOYvNjnZfZo"
+BOT_TOKEN = "7682362793:AAHHwKx9sJOvpJMELPHwZvTQvwcONcyh7IQ"
 
 MONGO_DB_URI = "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
@@ -29,17 +29,17 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
-LOG_GROUP_ID = -1002567375491
+LOG_GROUP_ID = -1002840261862
 
-MUSIC_BOT_NAME = "Nərgiz Music"
+MUSIC_BOT_NAME = "𝐑𝐘𝐓𝐇𝐌 𝐌𝐔𝐒𝐈𝐂"
 
 OWNER_ID = 6671591267
 
-HEROKU_API_KEY = "HRKU-d7849f0d-bd49-417a-9a6f-1453c10ad58a"
+HEROKU_API_KEY = "HRKU-AA6B3oZpgpXgt91Z8inkUIMM6tFeiDSy6zM2VX_jHnBQ_____w1rEtAW8iFv"
 
 BOT_ID = getenv("BOT_ID")
 
-HEROKU_APP_NAME = "nergizmusicbot"
+HEROKU_APP_NAME = "rythmmusic"
 
 UPSTREAM_REPO = "https://github.com/Silgimusicbot/Negizmusic"
 
@@ -47,9 +47,9 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Anonim_sair")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/rythmmusicchat")
 
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/NergizSupportGrup")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/rythmmusicchat")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -89,7 +89,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 COOKIES = "https://batbin.me/layers"
 # https://batbin.me
 
-STRING1 = "AgEtqVYAj-d2PSfOPN2R1l73iKX2lWL8REpNqzkhT1wncOEJ68YxJTrNeqEO89_BAKdwaemKZeZ_ObReA5zATFnQ6QxMNTPNLAsKLay6CUWn4InE5GhN6ux20FIwOpFDEb2aUyiXAYBVYmX9669mzYgoDflgbTshXVdPtEfWdqir1lP6g6yoB9h1FxLfXOIxgfp8Z4cKEq1PegeYj2la6cvWRBtgKZ5Ey6JY1GBf_Qoz4mfzJjjLjZXqnmv7zKe_dQPPMJ3i2DLizqxBBiVTGRsthYKtw0mkgCVBu-nQ32rMkhDp94PcQuCfSogSagAzs8mTsHtf7-ZQSOXSHfg35ZauUAmpugAAAAGC_6I6AA"
+STRING1 = "AgGfzwMAhpItTGxJ9Yvbvvt6y7eWWHubHkiKechRg_DkEEs2EDCfc57RBHQYnyxneMntBjolgfrGaWbdmJ9w8FDBcD9GUNi-HaMnz6XJ-hfiGYI3Tvfa2g78XXTpjBGVIWFNlc0Y2WHbNvF-8FuDZvXT9IDSFpMF7aD63rodcOM-XTI0MAjLGDC5umY87mHDE7zWIDtMGBd0_dyfITCilBHkOa4fyrfd8OIpuZhwGtV8NTSTYQXswgHp8T6xJ_8q9r2yIojk209gneUC3FCslQlCHouEATwkZN27uBxhz3-bzvWiJUuEmeKyHWFIe-6aoxiRirVORl9p3TZjN4cicHXlhDtuIAAAAAGrMHlaAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -108,7 +108,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/1p63vs.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/crc5ei.jpeg"
 )
 
 PING_IMG_URL = getenv(
